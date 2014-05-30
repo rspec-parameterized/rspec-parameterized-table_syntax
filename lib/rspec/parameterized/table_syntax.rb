@@ -1,12 +1,34 @@
 # frozen_string_literal: true
 
 require_relative "table_syntax/version"
+require 'rspec/parameterized/table'
 
-module Rspec
+module RSpec
   module Parameterized
     module TableSyntax
-      class Error < StandardError; end
-      # Your code goes here...
+      refine Object do
+        def |(other)
+          Table::Row.new(self) | other
+        end
+      end
+
+      refine Fixnum do
+        def |(other)
+          Table::Row.new(self) | other
+        end
+      end
+
+      refine Bignum do
+        def |(other)
+          Table::Row.new(self) | other
+        end
+      end
+
+      refine Array do
+        def |(other)
+          Table::Row.new(self) | other
+        end
+      end
     end
   end
 end
