@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "table_syntax/version"
+require 'binding_of_caller'
 require 'rspec/parameterized/table'
 
 module RSpec
