@@ -1,4 +1,4 @@
-describe RSpec::Parameterized::TableSyntax do
+RSpec.describe RSpec::Parameterized::TableSyntax do
   describe "table separated with pipe (using TableSyntax)" do
     using RSpec::Parameterized::TableSyntax
 
