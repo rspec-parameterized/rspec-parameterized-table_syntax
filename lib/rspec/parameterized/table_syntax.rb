@@ -3,6 +3,7 @@
 require "rspec/parameterized/table_syntax/version"
 require 'rspec/parameterized/table_syntax/table'
 require 'rspec/parameterized/table_syntax/table_syntax_implement'
+require "rspec/parameterized/core"
 require 'binding_of_caller'
 
 module RSpec
