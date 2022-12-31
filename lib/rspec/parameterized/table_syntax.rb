@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "rspec/parameterized/table_syntax/version"
-require 'rspec/parameterized/table'
+require 'rspec/parameterized/table_syntax/table'
 require 'binding_of_caller'
 
 module RSpec
@@ -14,7 +14,7 @@ module RSpec
         if caller_instance.instance_variable_defined?(:@__parameter_table)
           table = caller_instance.instance_variable_get(:@__parameter_table)
         else
-          table = RSpec::Parameterized::Table.new
+          table = RSpec::Parameterized::TableSyntax::Table.new
           caller_instance.instance_variable_set(:@__parameter_table, table)
         end
 
