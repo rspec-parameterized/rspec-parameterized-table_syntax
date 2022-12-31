@@ -34,6 +34,9 @@ I was inspired by [udzura's mock](https://gist.github.com/1881139).}
   spec.add_dependency "binding_of_caller"
   spec.add_dependency "rspec-parameterized-core"
 
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
