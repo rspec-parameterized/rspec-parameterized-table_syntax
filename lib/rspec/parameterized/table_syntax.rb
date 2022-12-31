@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "table_syntax/version"
+require "rspec/parameterized/table_syntax/version"
 require 'rspec/parameterized/table'
 require 'binding_of_caller'
 
