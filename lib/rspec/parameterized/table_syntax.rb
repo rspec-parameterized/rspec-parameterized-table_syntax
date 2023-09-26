@@ -9,7 +9,7 @@ require 'binding_of_caller'
 module RSpec
   module Parameterized
     module TableSyntax
-      if Gem::Version.create(RUBY_VERSION) >= Gem::Version.create("3.2.0.rc1")
+      if Gem::Version.create(RUBY_VERSION) >= Gem::Version.create('3.1.0')
         refine Object do
           import_methods TableSyntaxImplement
         end
