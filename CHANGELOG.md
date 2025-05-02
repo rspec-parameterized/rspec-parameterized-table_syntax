@@ -1,5 +1,11 @@
 ## [Unreleased]
-[full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v1.0.1...main)
+[full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v2.0.0...main)
+
+## [2.0.0](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/releases/tag/v2.0.0) - 2025-05-02
+[full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v1.0.1...v2.0.0)
+
+- Requires rspec-parameterized-core v2
+  - https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/pull/11
 
 ## [1.0.1] - 2023-09-26
 [full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v1.0.0...v1.0.1)
