@@ -14,7 +14,7 @@ I was inspired by [udzura's mock](https://gist.github.com/1881139).}
 
   spec.homepage = "https://github.com/rspec-parameterized/rspec-parameterized-table_syntax"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 2.7.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
