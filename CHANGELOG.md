@@ -1,5 +1,11 @@
 ## [Unreleased]
-[full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v2.0.1...main)
+[full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v2.1.0...main)
+
+## [2.1.0](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/releases/tag/v2.1.0) - 2025-12-28
+[full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v2.0.1...v2.1.0)
+
+- Allow binding_of_caller to load under Ruby 4.0
+  - https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/pull/22
 
 ## [2.0.1](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/releases/tag/v2.0.1) - 2025-11-30
 [full changelog](https://github.com/rspec-parameterized/rspec-parameterized-table_syntax/compare/v2.0.0...v2.0.1)
