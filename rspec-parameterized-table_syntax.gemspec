@@ -32,7 +32,7 @@ I was inspired by [udzura's mock](https://gist.github.com/1881139).}
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "binding_of_caller"
+  spec.add_dependency "binding_of_caller", ">= 2"
   spec.add_dependency "rspec-parameterized-core", ">= 2", "< 3"
 
   spec.add_development_dependency "rake"
